@@ -1,0 +1,7 @@
+runtime "python"
+exec "cta_clock.py"
+
+dir "wink"
+file "config.cfg"
+
+pip 'requests'
